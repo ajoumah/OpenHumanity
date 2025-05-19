@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="ahmadjoumah1-001-site1" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\kh\\Source\\Repos\\Onder1\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\kh\\Source\\Repos\\Onder1\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Server=DESKTOP-R9HA9J2; Database=OnderShop; User=ondershop;Password=ecommerce" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\kh\\Source\\Repos\\Onder1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="OnderShopConnectionString-Web.config Connection String" description="" value="Server=DESKTOP-R9HA9J2; Database=OnderShop; User=ondershop;Password=ecommerce" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\kh\\Source\\Repos\\Onder1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='OnderShopConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

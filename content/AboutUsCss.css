@@ -1,0 +1,68 @@
+﻿
+@font-face {
+            font-family: Tajawal30;
+             src: url(../fonts/Tajawal-Regular.ttf) format('truetype');
+            
+        }
+        @font-face {
+            font-family: Tajawal40;
+             src: url(../fonts/Tajawal-Medium.ttf) format('truetype');
+            
+        }
+.font-style-motto {
+    font-size: 45px; /*xx-large;*/
+}
+
+.font-style-motto-About-Us {
+    font-size: 35px; /*1.8vw;*/
+    color: #ff9102;
+}
+
+.font-news-paragraph-About-Us {
+    font-family:Tajawal30;
+    font-size: 20px; /*1.8vw;*/
+}
+
+.font-style-image-About-Us {
+    font-family: Tajawal40;
+    font-size: 20px; /*1.8vw;*/
+    color: #ff9102;
+}
+
+.font-style-image-About-Us2 {
+    font-family: Tajawal40;
+    font-size: 17px; /*1.8vw;*/
+    color: #ff9102;
+}
+
+#behaviorList li {
+    float: right;
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+#goalList li {
+    /*float: right;
+    width: 50%;*/
+    padding-bottom: 20px;
+}
+#OathList {
+    list-style-type: none;
+    padding:5px;
+}
+
+#OathList li {
+    /*float: right;
+    width: 50%;*/
+    padding-bottom: 20px;
+}
+#OathList li span{
+        font-family:Tajawal40;
+        font-size:20px;
+}
+.firstWord {
+    font-size: 20px; /*xx-large;*/
+    /*font-family: Tajawal30;*/
+    font-weight:bolder;
+    color: #404041;
+}

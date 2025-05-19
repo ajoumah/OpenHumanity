@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Monda:400,700);
+
+        body {
+            font-family: 'Monda', sans-serif;
+            font-size: 16px;
+            line-height: 24px;
+            color: #666;
+            background: #f0f0f0;
+        }
+
+        h1 {
+            margin: 0 0 20px 0;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 1.2em;
+            color: #3FABBA;
+        }
+
+        a {
+            text-decoration: none;
+            color: #3FABBA;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .animation {
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -ms-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+
+        .wrapper {
+            width: 600px;
+            padding: 20px;
+            margin: 20px auto;
+            background: #fff;
+        }
+
+
+        .breadCrumbs {
+            position: relative;
+        }
+
+            .breadCrumbs li {
+                position: relative;
+                float: right;
+            }
+
+                .breadCrumbs li a,
+                .breadCrumbs li p {
+                    display: block;
+                    padding: 0 30px 0 30px;
+                    line-height: 40px;
+                    color: #fff;
+                    background: #3fabba;
+                    float:right;
+                }
+
+                .breadCrumbs li:first-child a {
+                    padding: 0 20px 0 20px;
+                }
+
+                .breadCrumbs li a:hover {
+                }
+
+                /*.breadCrumbs li.activePage p,
+                .breadCrumbs li.activePage a {
+                    background: #333;
+                }*/
+
+                .breadCrumbs li:after {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: -20px;
+                    display: block;
+                    width: 0;
+                    height: 0;
+                    border-top: 20px solid transparent;
+                    border-bottom: 20px solid transparent;
+                    border-right: 20px solid #3fabba;
+                    z-index: 10;
+                }
+
+                /*.breadCrumbs li.activePage:after {
+                    border-top: 20px solid transparent;
+                    border-bottom: 20px solid transparent;
+                    border-left: 20px solid #333;
+                }*/
+
+                /* GIVE EVERY CHILD A DIFFERENT COLOR */
+                .breadCrumbs li:nth-child(1) a {
+                    background:#3fabba;
+                }
+
+                .breadCrumbs li:nth-child(1):after {
+                    border-right: 20px solid #3fabba;
+                }
+
+                .breadCrumbs li:nth-child(2) a {
+                    background:#46bdcd;
+                }
+
+                .breadCrumbs li:nth-child(2):after {
+                    border-right: 20px solid #46bdcd;
+                }
+
+                .breadCrumbs li:nth-child(3) a {
+                    background:#4bd0e2;
+                }
+
+                .breadCrumbs li:nth-child(3):after {
+                    border-right: 20px solid #4bd0e2;
+                }
+
+
+    </style>
+</head>
+<body>
+    <!--<section class="wrapper">-->
+        <ul class="breadCrumbs">
+            <li><a href="" title="Home" class="animation">Home</a></li>
+            <li><a href="" title="Portfolio" class="animation">Portfolio</a></li>
+            <li><a href="" title="Websites" class="animation">Websites</a></li>
+            
+            <div class="clear"></div>
+        </ul>
+    <!--</section>-->
+
+    
+</body>
+</html>

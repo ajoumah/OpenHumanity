@@ -1,0 +1,35 @@
+﻿.Grid {
+    border-color: #E7E7FF;
+    margin-top: 20px;
+    width: 100%;
+    border: solid 1px Black !important;
+}
+
+.GridHeader {
+    color: White;
+    background-color: Navy;
+    text-align: center;
+}
+
+.GridRow {
+    color: Navy;
+    background-color: #E7E7FF;
+    text-align: center;
+}
+
+.GridSelectedRow {
+    color: #F7F7F7;
+    background-color: #738A9C;
+    text-align: center;
+}
+
+.GridEditingRow {
+    color: Navy;
+}
+
+.GridAlternateRow {
+    color: Navy;
+    background-color: #F7F7F7;
+    text-align: center;
+}
+

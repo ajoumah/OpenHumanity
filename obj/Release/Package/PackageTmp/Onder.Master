@@ -1,0 +1,229 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Onder.master.cs" Inherits="Onder1.Onder" %>
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Onder Organization</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    
+    
+    <link rel="stylesheet" href="Content/bootstrap2.min.css"/>
+
+    <script src="Scripts/3.4.1/jquery.min.js"></script>
+  
+    <script src="Scripts/1.14.7/popper.min.js"></script>
+  
+    <script src="Scripts/4.3.1/bootstrap.min.js"></script>
+    <!-- Bootstrap core CSS -->
+   <link href="Content/bootstrap.min.css" rel="stylesheet"  />
+    
+    <!-- Default CSS -->
+    <link href="Content/MasterCss.css" rel="stylesheet"  />
+
+    
+    
+    <link href="Content/carousel.css" rel="stylesheet" />
+    <style>
+        .sticky.is-sticky {
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: 1000;
+            width: 100%;
+        }
+
+        
+        nav {
+            /*background: #eaebec;*/
+            min-height: 85px;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <div class="container">
+                
+                <a class="navbar-brand mt-2" >
+                    <img src="images/NewLogo.png" class="img-fluid " style="max-width: 100%;" alt="" />
+                </a>
+                <a class="navbar-brand mt-4 ml-0 pull-right">
+                    <p class="font-style" style="text-align: right">
+                        منظمة الروَّاد للتعاون و التنمية
+                    <br />
+                        
+                        ISO 26000 : 2010
+                        
+                    
+                
+                    </p>
+                    
+                </a>
+                <div class="d-flex flex-row-reverse pull-right col-12 justify-content-start mt-3" style="padding:0">
+                        <ul class="d-flex flex-row-reverse list-inline pull-left mt-0 col-12 mr-auto  " style="text-align: right; direction: rtl;">
+                            
+                            <li class="list-inline-item" style="font-size:12px">
+                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                    <%--<img src="images/turkeyFlag.png" />--%>
+                                    <span>Türkçe</span>
+                                </a>
+
+                            </li>
+
+                            <li class="list-inline-item" style="font-size:12px">
+                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                    <%--<img src="images/UkFlag2.png" />--%>
+                                    <span>English</span>
+                                </a>
+
+                            </li>
+                            <li class="list-inline-item " style="font-size:12px;float:right;padding:0;margin:0;text-align:right">
+                                <a class="social-icon text-xs-right" target="_blank" href="#" style="float:right;padding:0;margin:0;text-align:right">
+
+                                    <%-- <img src="images/arabFlag.png" />--%>
+                                    <span class="">عربي</span>
+
+                                </a>
+
+                            </li>
+                        </ul>
+                    </div>
+  
+  
+
+            </div>
+            <div class="container">
+                
+            </div>
+        </header>
+        <%--<nav class="navbar navbar-expand-lg bg-light justify-content-center  sticky-top">--%>
+            <nav class="navbar navbar-expand-lg bg-light justify-content-center top-navbar" data-toggle="sticky-onscroll">
+            <div class="container">
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="Default.aspx">الرئيسية</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="AboutUS.aspx" id="navbarDropdownMenuLink1" aria-haspopup="true" aria-expanded="false">من نحن
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                        <a class="dropdown-item" href="AboutUS.aspx#Vision">الرؤية</a>
+                        <a class="dropdown-item" href="AboutUS.aspx#Letter">الرسالة</a>
+                        <a class="dropdown-item" href="AboutUS.aspx#Ethics">القيم</a>
+                        <a class="dropdown-item" href="AboutUS.aspx#Goals">الأهداف</a>
+                        <a class="dropdown-item" href="AboutUS.aspx#Honor">ميثاق الشرف</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="Where-We-Work.aspx" id="navbarDropdownMenuLink2" aria-haspopup="true" aria-expanded="false">أين نعمل
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Where-We-Work.aspx#Syria">سوريا</a>
+                        <a class="dropdown-item" href="Where-We-Work.aspx#Turkey">تركيا</a>
+                        <a class="dropdown-item" href="Where-We-Work.aspx#Lebanon">لبنان</a>
+
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="Default.aspx#whatWeWork" id="navbarDropdownMenuLink3"  aria-haspopup="true" aria-expanded="false">ماذا نعمل
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <asp:LinkButton class="dropdown-item" ID="DropDownLearning" runat="server">قطاع التعليم </asp:LinkButton>
+                        <asp:LinkButton class="dropdown-item" ID="DropDownCulture" runat="server">قطاع الثقافة </asp:LinkButton>
+                        <asp:LinkButton class="dropdown-item" ID="DropDownSociety" runat="server">قطاع التنمية المجتمعية </asp:LinkButton>
+                        <asp:LinkButton class="dropdown-item" ID="DropDownSport" runat="server">قطاع الرياضة </asp:LinkButton>
+
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">تقارير</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ContactUs.aspx">اتصل بنا</a>
+                </li>
+            </ul>
+                </div>
+        </nav>
+        <main role="main">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+         
+        </asp:ContentPlaceHolder>
+      
+    </div>
+            <div class="container">
+
+
+                <footer class="page-footer font-small unique-color-dark ">
+
+
+
+                    <%--<hr class="featurette-divider" style="border-top: 1px solid black" />--%>
+                    <%-- <hr class="featurette-divider" style="border-top: 1px solid black"" />--%>
+                    <!-- Footer Links -->
+
+                    <!-- Footer Links -->
+
+                    <!-- Copyright -->
+                    <div class="footer-copyright text-center py-3 " style="border-top: 1px solid black">
+                        <p class="text-center">&copy; <%: DateTime.Now.Year %> - All rights reserved by Önder Organization</p>
+                    </div>
+                    <!-- Copyright -->
+                    
+                </footer>
+                </div>
+<!-- Footer -->
+
+    </main>
+
+    </form>
+    <script src="Scripts/jquery-3.3.1.slim.min.js" ></script>
+     <script>
+
+
+// Sticky navbar
+// =========================
+            $(document).ready(function () {
+                // Custom function which toggles between sticky class (is-sticky)
+                var stickyToggle = function (sticky, stickyWrapper, scrollElement) {
+                    var stickyHeight = sticky.outerHeight();
+                    var stickyTop = stickyWrapper.offset().top;
+                    if (scrollElement.scrollTop() >= stickyTop) {
+                        stickyWrapper.height(stickyHeight);
+                        sticky.addClass("is-sticky");
+                    }
+                    else {
+                        sticky.removeClass("is-sticky");
+                        stickyWrapper.height('auto');
+                    }
+                };
+
+                // Find all data-toggle="sticky-onscroll" elements
+                $('[data-toggle="sticky-onscroll"]').each(function () {
+                    var sticky = $(this);
+                    var stickyWrapper = $('<div>').addClass('sticky-wrapper'); // insert hidden element to maintain actual top offset on page
+                    sticky.before(stickyWrapper);
+                    sticky.addClass('sticky');
+
+                    // Scroll & resize events
+                    $(window).on('scroll.sticky-onscroll resize.sticky-onscroll', function () {
+                        stickyToggle(sticky, stickyWrapper, $(this));
+                    });
+
+                    // On page load
+                    stickyToggle(sticky, stickyWrapper, $(window));
+                });
+            });
+     </script>
+      <%--<script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>--%>
+    
+</body>
+</html>

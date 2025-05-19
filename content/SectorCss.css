@@ -1,0 +1,93 @@
+﻿
+@font-face {
+    font-family: Tajawal2;
+    src: url(../fonts/Tajawal-Medium.ttf) format('truetype');
+}
+.font-style-motto {
+    
+    font-size: 45px; /*xx-large;*/
+    
+}
+.benifit-style-font {
+    font-size:1vw; /*22px;*/
+}
+.benifit-style-font2 {
+    font-size: 4vw; /*22px;*/
+}
+.font-Sector-header {
+    font-size: 24px; /*xx-large;*/
+}
+.font-Sector-paragraph {
+    font-family: Tajawal2;
+    font-size: 25px; /*xx-large;*/
+}
+.font-style-programs-header {
+    
+    font-size: 38px; /*xx-large;*/
+    
+}
+.font-programs-paragraph-header {
+    font-size: 26px;
+}
+.text-block {
+    font-size: 60px;
+}
+.font-programs-paragraph {
+    font-size: 14px;
+}
+.round_Top {
+    border-radius: 10px 10px 0px 0px;
+}
+.border-thick{
+    border:2px solid blue; 
+}
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+
+#myImg:hover {
+    opacity: 0.7;
+}
+.programssport {
+    width: 24%;
+    height: 291px;
+    border-radius: 14px;
+}
+.programssport1 {
+    width: 24%;
+}
+.mySlidesOfProjects {
+    /*height:auto;*//*:550px;*/ /*379px;*/
+    border-radius: 14px;
+    
+}
+.font-programs-paragraph-header-Culture {
+    font-size: 26px; /*xx-large;*/
+    font-family: Tajawal;
+    font-weight: bold;
+}
+.font-projects-paragraph {
+    font-size: 18px; /*xx-large;*/
+    font-family: Tajawal;
+    direction:rtl;
+}
+.SearchBox {
+    /*border-collapse: collapse;*/
+    margin-top: 20px;
+    width: 250px;
+}
+
+.SearchBoxHead {
+    border: #0468a4 1px solid;
+    background-color: #FFFF99;
+    text-align: center;
+}
+
+.SearchBoxContent {
+    border: #0468a4 1px solid;
+    padding: 5px 0px 5px 12px;
+}
