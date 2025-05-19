@@ -4,7 +4,7 @@
 
 ## 🌍 Overview
 
-**OpenHumanity** is a humanitarian-focused web platform developed  using ASP.NET Web Forms with C#. It is designed to showcase and support projects initiated for all  **Humanitarian-Focused Organization for Cooperation and Development**. The platform features multilingual support (Arabic, English, Turkish) and provides public access to information about the organization's vision, mission, operational sectors, and geographic areas of impact.
+**OpenHumanity** is a humanitarian-focused web platform developed  using ASP.NET Web Forms with C#. It is designed to showcase and support projects initiated for all  **Humanitarian-Focused Organizations for Cooperation and Development**. The platform features multilingual support (Arabic, English, Turkish) and provides public access to information about the organization's vision, mission, operational sectors, and geographic areas of impact.
 
 ## 🚀 Features
 
