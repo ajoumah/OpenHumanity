@@ -1,6 +1,6 @@
 # OpenHumanity Platform – Humanitarian-Focused Web Application
 
-![Logo](images/NewLogo.png)
+
 
 ## 🌍 Overview
 
